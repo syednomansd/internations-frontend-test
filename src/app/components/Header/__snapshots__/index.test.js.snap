@@ -1,0 +1,520 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render correctly in "debug" mode 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header
+    debug={true}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Link
+          className="navbar-brand mr-auto mr-lg-0"
+          replace={false}
+          to="/"
+>
+          Internations
+</Link>,
+        <button
+          className="navbar-toggler p-0 border-0"
+          data-toggle="offcanvas"
+          type="button"
+>
+          <span
+                    className="navbar-toggler-icon"
+          />
+</button>,
+        <div
+          className="navbar-collapse offcanvas-collapse"
+          id="navbarsExampleDefault"
+>
+          <ul
+                    className="navbar-nav mr-auto"
+          >
+                    <li
+                              className="nav-item"
+                    >
+                              <Link
+                                        className="nav-link"
+                                        replace={false}
+                                        to="/"
+                              >
+                                        Users
+                              </Link>
+                    </li>
+                    <li
+                              className="nav-item"
+                    >
+                              <Link
+                                        className="nav-link"
+                                        replace={false}
+                                        to="/groups"
+                              >
+                                        Groups
+                              </Link>
+                    </li>
+          </ul>
+</div>,
+      ],
+      "className": "navbar navbar-expand-lg fixed-top navbar-dark bg-dark",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "Internations",
+          "className": "navbar-brand mr-auto mr-lg-0",
+          "replace": false,
+          "to": "/",
+        },
+        "ref": null,
+        "rendered": "Internations",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <span
+            className="navbar-toggler-icon"
+/>,
+          "className": "navbar-toggler p-0 border-0",
+          "data-toggle": "offcanvas",
+          "type": "button",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "navbar-toggler-icon",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "span",
+        },
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <ul
+            className="navbar-nav mr-auto"
+>
+            <li
+                        className="nav-item"
+            >
+                        <Link
+                                    className="nav-link"
+                                    replace={false}
+                                    to="/"
+                        >
+                                    Users
+                        </Link>
+            </li>
+            <li
+                        className="nav-item"
+            >
+                        <Link
+                                    className="nav-link"
+                                    replace={false}
+                                    to="/groups"
+                        >
+                                    Groups
+                        </Link>
+            </li>
+</ul>,
+          "className": "navbar-collapse offcanvas-collapse",
+          "id": "navbarsExampleDefault",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li
+                className="nav-item"
+>
+                <Link
+                                className="nav-link"
+                                replace={false}
+                                to="/"
+                >
+                                Users
+                </Link>
+</li>,
+              <li
+                className="nav-item"
+>
+                <Link
+                                className="nav-link"
+                                replace={false}
+                                to="/groups"
+                >
+                                Groups
+                </Link>
+</li>,
+            ],
+            "className": "navbar-nav mr-auto",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Link
+                  className="nav-link"
+                  replace={false}
+                  to="/"
+>
+                  Users
+</Link>,
+                "className": "nav-item",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Users",
+                  "className": "nav-link",
+                  "replace": false,
+                  "to": "/",
+                },
+                "ref": null,
+                "rendered": "Users",
+                "type": [Function],
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Link
+                  className="nav-link"
+                  replace={false}
+                  to="/groups"
+>
+                  Groups
+</Link>,
+                "className": "nav-item",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Groups",
+                  "className": "nav-link",
+                  "replace": false,
+                  "to": "/groups",
+                },
+                "ref": null,
+                "rendered": "Groups",
+                "type": [Function],
+              },
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "nav",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Link
+            className="navbar-brand mr-auto mr-lg-0"
+            replace={false}
+            to="/"
+>
+            Internations
+</Link>,
+          <button
+            className="navbar-toggler p-0 border-0"
+            data-toggle="offcanvas"
+            type="button"
+>
+            <span
+                        className="navbar-toggler-icon"
+            />
+</button>,
+          <div
+            className="navbar-collapse offcanvas-collapse"
+            id="navbarsExampleDefault"
+>
+            <ul
+                        className="navbar-nav mr-auto"
+            >
+                        <li
+                                    className="nav-item"
+                        >
+                                    <Link
+                                                className="nav-link"
+                                                replace={false}
+                                                to="/"
+                                    >
+                                                Users
+                                    </Link>
+                        </li>
+                        <li
+                                    className="nav-item"
+                        >
+                                    <Link
+                                                className="nav-link"
+                                                replace={false}
+                                                to="/groups"
+                                    >
+                                                Groups
+                                    </Link>
+                        </li>
+            </ul>
+</div>,
+        ],
+        "className": "navbar navbar-expand-lg fixed-top navbar-dark bg-dark",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Internations",
+            "className": "navbar-brand mr-auto mr-lg-0",
+            "replace": false,
+            "to": "/",
+          },
+          "ref": null,
+          "rendered": "Internations",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <span
+              className="navbar-toggler-icon"
+/>,
+            "className": "navbar-toggler p-0 border-0",
+            "data-toggle": "offcanvas",
+            "type": "button",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "navbar-toggler-icon",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "span",
+          },
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <ul
+              className="navbar-nav mr-auto"
+>
+              <li
+                            className="nav-item"
+              >
+                            <Link
+                                          className="nav-link"
+                                          replace={false}
+                                          to="/"
+                            >
+                                          Users
+                            </Link>
+              </li>
+              <li
+                            className="nav-item"
+              >
+                            <Link
+                                          className="nav-link"
+                                          replace={false}
+                                          to="/groups"
+                            >
+                                          Groups
+                            </Link>
+              </li>
+</ul>,
+            "className": "navbar-collapse offcanvas-collapse",
+            "id": "navbarsExampleDefault",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <li
+                  className="nav-item"
+>
+                  <Link
+                                    className="nav-link"
+                                    replace={false}
+                                    to="/"
+                  >
+                                    Users
+                  </Link>
+</li>,
+                <li
+                  className="nav-item"
+>
+                  <Link
+                                    className="nav-link"
+                                    replace={false}
+                                    to="/groups"
+                  >
+                                    Groups
+                  </Link>
+</li>,
+              ],
+              "className": "navbar-nav mr-auto",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Link
+                    className="nav-link"
+                    replace={false}
+                    to="/"
+>
+                    Users
+</Link>,
+                  "className": "nav-item",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Users",
+                    "className": "nav-link",
+                    "replace": false,
+                    "to": "/",
+                  },
+                  "ref": null,
+                  "rendered": "Users",
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Link
+                    className="nav-link"
+                    replace={false}
+                    to="/groups"
+>
+                    Groups
+</Link>,
+                  "className": "nav-item",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Groups",
+                    "className": "nav-link",
+                    "replace": false,
+                    "to": "/groups",
+                  },
+                  "ref": null,
+                  "rendered": "Groups",
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+            ],
+            "type": "ul",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "nav",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;
