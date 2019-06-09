@@ -6,7 +6,7 @@ Frontend Developer - Coding Challenge | Internations 0.1.0 - React, Redux, React
 ## Quick start
 
 1.  Make sure that you have Node v8 or above installed.
-2.  Clone this repo using `git clone git@gitlab.com:syednomansd/internations-frontend-test.git`
+2.  Clone this repo using `git clone https://github.com/syednomansd/internations-frontend-test.git`
 3.  Move to the appropriate directory: `cd internations-frontend-test`
 4.  Run `npm install` in order to install dependencies.
 
