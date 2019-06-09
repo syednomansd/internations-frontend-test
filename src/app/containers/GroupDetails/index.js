@@ -33,7 +33,7 @@ class GroupDetails extends Component {
     const { searchterm } = this.state;
     const { groupid } = this.props.match.params;
     this.setState({ searchterm: e.target.value.replace(/(<([^>]+)>)/ig,"")}, function(){
-      if(searchterm){
+      if(searchterm.length > 1){
         this.props.searchUser(searchterm, groupid);
       }else{
         this.props.fetchGroupUsers(groupid);

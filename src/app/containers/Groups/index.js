@@ -46,7 +46,7 @@ class Groups extends Component {
   handleSearch(e) {
     const { searchterm } = this.state;
     this.setState({ searchterm: e.target.value.replace(/(<([^>]+)>)/ig,"")}, function(){
-      if(searchterm){
+      if(searchterm.length > 1){
         this.props.searchGroup(searchterm);
       }else{
         this.props.fetchGroups();

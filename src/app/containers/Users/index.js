@@ -42,7 +42,7 @@ class Users extends Component {
   handleSearch(e) {
     const { searchterm, skip, perPage } = this.state;
     this.setState({ searchterm: e.target.value.replace(/(<([^>]+)>)/ig,"")}, function(){
-      if(searchterm){
+      if(searchterm.length > 1){
         this.props.searchUser(searchterm);
       }else{
         this.props.fetchUsers(skip , perPage);
